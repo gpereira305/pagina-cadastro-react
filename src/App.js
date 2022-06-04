@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { GlobalStyled } from "./styles/TropaStyled";
-import HomeContent from "./components/HomeContent";
-import LoginContent from "./components/LoginContent";
+import { GlobalStyled } from "./styles/TropaStyled"; 
 import Footer from "./components/Footer";
 import TropaHome from "./pages/TropaHome";
 import TropaLogin from "./pages/TropaLogin";

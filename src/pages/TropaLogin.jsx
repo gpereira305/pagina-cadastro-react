@@ -1,10 +1,10 @@
 import React from "react";
 import LoginContent from "../components/LoginContent";
 
-const TropaLogin = () => {
+const TropaLogin = ({ user, setUser }) => {
   return (
     <>
-      <LoginContent />
+      <LoginContent user={user} setUser={setUser}/>
     </>
   );
 };

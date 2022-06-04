@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import logo from "../assests/images/logo.png";
 import background from "../assests/images/background.png";
 import laptop from "../assests/images/laptop.png";
@@ -34,13 +34,14 @@ const basicSchema = yup.object().shape({
     .required("Campo obrigatório!"),
 });
 
-const LoginContent = () => {
+const LoginContent = ({ user, setUser }) => {
   let navigate = useNavigate();
 
   const onSubmit = () => {
-    setTimeout(() => {
+    if (!user) {
+      setUser(true); 
       navigate("/home");
-    }, 1000);
+    }
   };
 
   // Formik values
