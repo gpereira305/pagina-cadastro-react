@@ -27,3 +27,11 @@ Nesse mini-app há uma autenticação básica para acesso à homepage, onde o us
 - O seu navegador padrão irá mostrar uma nova aba com o projeto já pronto para ser usado
 - Caso o navegado não inciar, digite o seguinte comando "http://localhost:3000" em uma nova aba.
 <hr>
+
+## **Screenshots**
+
+- Login Page
+<img src="./src/assests/images/Screenshot1.png" alt=""/>
+
+- Home Page
+<img src="./src/assests/images/Screenshot2.png" alt=""/> 
