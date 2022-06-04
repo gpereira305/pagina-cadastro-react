@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# **Tropa Digital - React JS**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ <hr>
 
-## Available Scripts
+## **Funcionalidades**
 
-In the project directory, you can run:
+Nesse mini-app há uma autenticação básica para acesso à homepage, onde o usário terá que fornecer um email válido e uma senha com no mínimo 6 caracteres para que assim seja redirecionado para a página principal.
 
-### `npm start`
+<hr>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Tecnologias usadas**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- <a href="https://pt-br.reactjs.org/">React</a>
+- <a href="https://reactrouter.com">React Router</a>
+- <a href="https://styled-components.com/">Styled-components</a>
+- <a href="https://github.com/jquense/yup">Yup</a>
+- <a href="https://formik.org/">Formik</a>
+<hr>
 
-### `npm test`
+## **Como instalar em ambiente local**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Na página desse projeto no Github clique em "Code", baixe o Zip ou copie o link do HTTPS.
+- Abra um terminal em uma pasta de sua escolha e cole o link HTTPS.
+- Certifique-se de ter instalado o Node em uma versão superior a 14.0.
+- Após baixar o pojeto em um diretório de sua escolha digite o comando "npm install".
+- Após o término de todas as depedências serem baixadas pelo npm digite no mesmo diretório o comando "npm start".
+- O seu navegador padrão irá mostrar uma nova aba com o projeto já pronto para ser usado
+- Caso o navegado não inciar, digite o seguinte comando "http://localhost:3000" em uma nova aba.
+<hr>
